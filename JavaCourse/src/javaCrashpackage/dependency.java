@@ -7,7 +7,7 @@ public class dependency {
 	    @Test(enabled = true)
 	    public void tenth() {
 	    	System.out.println("tenth");
-	    }
+	    }//final
 	    @Test(dependsOnMethods = "tenth")
 	    public void highschool() {
 	    	System.out.println("12th");
